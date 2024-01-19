@@ -3,15 +3,14 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" sticky bg-transparent text-white flex justify-between p-4">
+    <header className=" sticky bg-transparent text-[#DEE0DD] flex justify-between p-4 px-8 mt-7">
       <div className=" font-bold text-lg">
         <Link href="/">Mohit</Link>
       </div>
       <div>
-        <ul className=" flex gap-10 font-semibold">
-          <Link href="/about">About</Link>
-          <Link href="/portfolio">Portfolio</Link>
-          <Link href="/contact">Contact Me</Link>
+        <ul className=" flex gap-12 font-semibold">
+          <Link href="/portfolio">PROJECTS</Link>
+          <Link href="/contact">CONTACT</Link>
         </ul>
       </div>
     </header>
