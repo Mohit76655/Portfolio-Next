@@ -2,7 +2,7 @@ import React from "react";
 
 const Portfoilio = () => {
   return (
-    <div className=" ">
+    <div className=" min-h-screen">
       <div className="">PROJECT</div>
     </div>
   );
