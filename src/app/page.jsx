@@ -21,18 +21,21 @@ export default function Home() {
         <div className=" justify-between mb-11 md:flex">
           <span className=" flex-row md:flex-col justify-center pl-5 text-xl gap-8 md:gap-2 flex">
             <a
+              target="blank"
               href="https://github.com/Mohit76655"
               className=" transition-all ease-in hover:text-red-300 hover:scale-110"
             >
               <i className="ri-github-line"></i>
             </a>
             <a
+              target="blank"
               href="https://twitter.com/_MoHiT_K"
               className=" transition-all ease-in hover:text-red-300 hover:scale-110"
             >
               <i className="ri-twitter-fill"></i>
             </a>
             <a
+              target="blank"
               href="https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/"
               className=" transition-all ease-in hover:text-red-300 hover:scale-110"
             >
