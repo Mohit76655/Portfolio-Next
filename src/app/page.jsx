@@ -7,7 +7,7 @@ import "remixicon/fonts/remixicon.css";
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen pt-[12rem]">
+      <main className="min-h-screen pt-[10rem] overflow-y-hidden">
         <div className="flex justify-center items-center text-2xl">
           <div className=" mb-20 flex flex-col md:gap-16 gap-10">
             <p className="md:ml-28 ml-12 font-semibold text-[#323232]">I AM</p>
@@ -18,17 +18,23 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <span className=" flex flex-col pl-5 text-xl">
-          <a href="https://github.com/Mohit76655">
-            <i className="ri-github-line"></i>
-          </a>
-          <a href="https://twitter.com/_MoHiT_K">
-            <i className="ri-twitter-fill"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/">
-            <i className="ri-linkedin-fill"></i>
-          </a>
-        </span>
+        <div className=" justify-between mb-11 hidden md:flex">
+          <span className=" flex flex-col pl-5 text-xl gap-2">
+            <a href="https://github.com/Mohit76655">
+              <i className="ri-github-line"></i>
+            </a>
+            <a href="https://twitter.com/_MoHiT_K">
+              <i className="ri-twitter-fill"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/">
+              <i className="ri-linkedin-fill"></i>
+            </a>
+          </span>
+          <span className=" flex flex-col items-center font-bold gap-5 mt-7 pr-5">
+            <span className=" rotate-90">SCROLL</span>
+            <i class="ri-arrow-down-line"></i>
+          </span>
+        </div>
       </main>
       <About />
       <Portfoilio />
