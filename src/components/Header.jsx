@@ -1,5 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import AnimatedLink from "./AnimatedLink";
+
+const navLinks = [
+  { title: "PROJECTS", href: "/portfolio" },
+  { title: "CONTACT", href: "/contact" },
+];
 
 const Header = () => {
   return (
@@ -9,8 +15,12 @@ const Header = () => {
       </div>
       <div className=" hidden md:block">
         <ul className=" flex gap-12 font-semibold">
-          <Link href="/portfolio">PROJECTS</Link>
-          <Link href="/contact">CONTACT</Link>
+          <Link className=" relative" href="/portfolio">
+            <AnimatedLink title="PROJECTS" />
+          </Link>
+          <Link className=" relative" href="/contact">
+            <AnimatedLink title="CONTACT" />
+          </Link>
         </ul>
       </div>
       <div className="md:hidden right-0">

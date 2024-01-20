@@ -18,21 +18,30 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className=" justify-between mb-11 hidden md:flex">
-          <span className=" flex flex-col pl-5 text-xl gap-2">
-            <a href="https://github.com/Mohit76655">
+        <div className=" justify-between mb-11 md:flex">
+          <span className=" flex-row md:flex-col justify-center pl-5 text-xl gap-8 md:gap-2 flex">
+            <a
+              href="https://github.com/Mohit76655"
+              className=" transition-all ease-in hover:text-red-300 hover:scale-110"
+            >
               <i className="ri-github-line"></i>
             </a>
-            <a href="https://twitter.com/_MoHiT_K">
+            <a
+              href="https://twitter.com/_MoHiT_K"
+              className=" transition-all ease-in hover:text-red-300 hover:scale-110"
+            >
               <i className="ri-twitter-fill"></i>
             </a>
-            <a href="https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/">
+            <a
+              href="https://www.linkedin.com/in/mohit-kachhwaha-9577a3274/"
+              className=" transition-all ease-in hover:text-red-300 hover:scale-110"
+            >
               <i className="ri-linkedin-fill"></i>
             </a>
           </span>
-          <span className=" flex flex-col items-center font-bold gap-5 mt-7 pr-5">
+          <span className="  flex-col items-center font-bold gap-5 mt-7 pr-5 hidden md:flex hover:text-red-300 transition-all ease-in">
             <span className=" rotate-90">SCROLL</span>
-            <i class="ri-arrow-down-line"></i>
+            <i className="ri-arrow-down-line animate-bounce transition-all ease-in"></i>
           </span>
         </div>
       </main>
