@@ -3,6 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import Portfoilio from "./portfolio/page";
 import "remixicon/fonts/remixicon.css";
+import Contact from "./contact/page";
+import SkillsTab from "@/components/SkillsTab";
 
 export default function Home() {
   return (
@@ -48,8 +50,10 @@ export default function Home() {
           </span>
         </div>
       </main>
+      <SkillsTab />
       <About />
       <Portfoilio />
+      <Contact />
     </>
   );
 }
