@@ -12,11 +12,13 @@ export default function Home() {
       <main className="min-h-screen pt-[10rem] overflow-y-hidden">
         <div className="flex justify-center items-center text-2xl">
           <div className=" mb-20 flex flex-col md:gap-16 gap-10">
-            <p className="md:ml-28 ml-12 font-semibold text-[#323232]">I AM</p>
+            <p className="md:ml-28 ml-12 font-semibold text-neutral-700">
+              I AM
+            </p>
             <h1 className="font-bold md:text-[9rem] text-[4rem]">MOHIT</h1>
             <div className="">
-              <p className=" md:ml-64 ml-16 text-[#323232]">A Frontend</p>
-              <p className=" md:ml-80 ml-24 text-[#323232]">Developer</p>
+              <p className=" md:ml-64 ml-16 text-neutral-700">A Frontend</p>
+              <p className=" md:ml-80 ml-24 text-neutral-700">Developer</p>
             </div>
           </div>
         </div>
