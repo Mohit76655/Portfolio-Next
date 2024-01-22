@@ -50,15 +50,25 @@ const Portfoilio = () => {
       {/* FILTER TAGS END */}
 
       {/* PROJECTS GRID START */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
         {projectData.map((item, index) => {
           return (
-            <Div key={index} className="flex flex-col gap-4 cursor-pointer">
+            <Div key={index} className="flex flex-col gap-4">
               <div className="bg-black rounded-[20px] aspect-video overflow-hidden">
-                <img
-                  src={item.url}
-                  className="transition-transform hover: hover:duration-2500 ease-linear"
-                />
+                <a href="">
+                  <img
+                    src={item.url}
+                    className="transition-transform hover: hover:duration-2500 ease-linear"
+                  />
+                </a>
+                <div className="z-10 flex justify-around text-xl font-bold">
+                  <a href="">
+                    <i class="ri-github-fill"></i>
+                  </a>
+                  <a href="">
+                    <i class="ri-eye-line"> </i>
+                  </a>
+                </div>
               </div>
               <div className="text-[20px] 2xl:text-[24px] text-[#CCCCCC] text-center">
                 {item.name}

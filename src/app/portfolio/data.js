@@ -8,8 +8,8 @@ export const filters = [
     id: "dashboard",
   },
   {
-    name: "Mobile App",
-    id: "mobile-app",
+    name: "Web App",
+    id: "web-app",
   },
   {
     name: "Website",
@@ -19,23 +19,31 @@ export const filters = [
 
 export const projects = [
   {
-    name: "Join the Innovative Car Wash Service",
+    name: "Tesla Clone (basic)",
+    live: "",
+    github: "",
     url: "./tesla.png",
-    tags: ["dashboard", "mobile-app"],
+    tags: ["web-app"],
   },
   {
-    name: "Your Luggage is in Safe Hands",
+    name: "Rock Paper scissors game",
+    live: "",
+    github: "",
     url: "./Rock_Paper.png",
-    tags: ["dashboard", "website"],
+    tags: ["website"],
   },
   {
-    name: "The Art of Hiring",
+    name: "Weather App",
+    live: "",
+    github: "",
     url: "./Weather_App.png",
-    tags: ["mobile-app"],
+    tags: ["web-app", "website"],
   },
   {
-    name: "We Are Solving Global Problems",
+    name: "Youtube Clone",
+    live: "",
+    github: "",
     url: "./youtube.png",
-    tags: ["mobile-app"],
+    tags: ["web-app"],
   },
 ];

@@ -29,7 +29,7 @@ const About = () => {
         <a
           href=""
           download="CV"
-          className=" bg-neutral-800 px-5 py-2 rounded-2xl text-neutral-200 hover:shadow-neutral-300 shadow-md transition-all ease-in"
+          className=" bg-neutral-800 px-5 py-2 rounded-2xl text-neutral-200 hover:shadow-[#EFB946] shadow-md transition-all ease-in"
         >
           <i className="ri-download-line"></i> Download CV
         </a>
