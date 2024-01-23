@@ -27,7 +27,7 @@ const About = () => {
           Amazing Projects.
         </p>
         <a
-          href=""
+          href="./Mohit-Kachhwaha-CV.pdf"
           download="CV"
           className=" bg-neutral-800 px-5 py-2 rounded-2xl text-neutral-200 hover:shadow-[#EFB946] shadow-md transition-all ease-in"
         >

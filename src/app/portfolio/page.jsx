@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { projects, filters } from "./data";
 import Div from "@/components/Div";
+import Link from "next/link";
 
 const Portfoilio = () => {
   const [selectedTag, setSelectedTag] = useState("all");
@@ -55,19 +56,27 @@ const Portfoilio = () => {
           return (
             <Div key={index} className="flex flex-col gap-4">
               <div className="bg-black rounded-[20px] aspect-video overflow-hidden">
-                <a href="">
+                <Link href={item.live} target="blank">
                   <img
                     src={item.url}
                     className="transition-transform hover: hover:duration-2500 ease-linear"
                   />
-                </a>
+                </Link>
                 <div className="z-10 flex justify-around text-xl font-bold">
-                  <a href="">
-                    <i class="ri-github-fill"></i>
-                  </a>
-                  <a href="">
-                    <i class="ri-eye-line"> </i>
-                  </a>
+                  <Link
+                    href={item.github}
+                    className="hover:text-orange-500"
+                    target="blank"
+                  >
+                    <i className="ri-github-fill"></i>
+                  </Link>
+                  <Link
+                    href={item.live}
+                    target="blank"
+                    className="hover:text-orange-500"
+                  >
+                    <i className="ri-eye-line"> </i>
+                  </Link>
                 </div>
               </div>
               <div className="text-[20px] 2xl:text-[24px] text-[#CCCCCC] text-center">
