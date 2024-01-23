@@ -21,7 +21,7 @@ const Portfoilio = () => {
   };
 
   return (
-    <div id="work" className="mt-10 relative">
+    <div id="work" className="mt-10 relative min-h-screen">
       {/* SECTION HEADING START */}
       <Div className="mb-10">
         <div className="flex text-center justify-center gap-2 md:gap-0 md:flex-col font-bold text-5xl md:text-8xl leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-neutral-500 mb-2">
