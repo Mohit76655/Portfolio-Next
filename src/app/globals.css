@@ -17,8 +17,12 @@
 }
 
 body {
-  color: #DEE0DD;
-  background: radial-gradient(circle at 50% -30%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  color: #dee0dd;
+  background: radial-gradient(
+    circle at 50% -30%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
 }
 body::-webkit-scrollbar {
   display: none;

@@ -7,7 +7,7 @@ const About = () => {
         <h2 className="font-bold text-5xl md:text-8xl text-neutral-500">
           About Me.
         </h2>
-        <p className=" relative text-xl md:text-4xl md:leading-relaxed items-center font-semibold md:font-bold text-neutral-300 transition-all ease-in">
+        <p className=" supports-[animation-timeline]:reveal-text relative text-xl md:text-4xl md:leading-relaxed items-center font-semibold md:font-bold text-neutral-300 transition-all ease-in">
           i'm <b className="text-neutral-200 hover:text-orange-300">Mohit</b>{" "}
           Kachhwaha a{" "}
           <b className="text-neutral-200 hover:text-orange-300">Self Taught</b>{" "}
