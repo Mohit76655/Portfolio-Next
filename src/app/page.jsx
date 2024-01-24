@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen pt-[10rem] overflow-y-hidden">
+      <main className="min-h-screen pt-[10rem] overflow-x-hidden">
         <div className="flex justify-center items-center text-2xl">
           <div className=" mb-20 flex flex-col md:gap-16 gap-10">
             <motion.p
