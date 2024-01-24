@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { React, useState } from "react";
 import AnimatedLink from "./AnimatedLink";
+import { motion } from "framer-motion";
 
 const Header = () => {
   const [isOpen, setisOpen] = useState(false);
@@ -12,7 +13,12 @@ const Header = () => {
   };
 
   return (
-    <header className=" sticky bg-transparent text-[#DEE0DD] flex justify-between md:justify-between p-4 px-8 mt-4 z-10 flex-wrap">
+    <motion.header
+      initial={{ opacity: 0, y: -15 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.15 }}
+      className=" sticky bg-transparent text-[#DEE0DD] flex justify-between md:justify-between p-4 px-8 mt-4 z-10 flex-wrap"
+    >
       <div className=" font-bold text-lg">
         <Link href="/">Mohit</Link>
       </div>
@@ -43,7 +49,7 @@ const Header = () => {
           </div>
         )}
       </div>
-    </header>
+    </motion.header>
   );
 };
 
