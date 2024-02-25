@@ -27,10 +27,6 @@ const Portfoilio = () => {
         <div className="flex text-center justify-center gap-2 md:gap-0 md:flex-col font-bold text-5xl md:text-8xl leading-[40px] md:leading-[95px] 2xl:leading-[123px] font-oswald uppercase text-neutral-500 mb-2">
           Projects.
         </div>
-        {/* <div className="text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] text-[#CCCCCC] text-center">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </div> */}
       </Div>
       {/* SECTION HEADING END */}
 

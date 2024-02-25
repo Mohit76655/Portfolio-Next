@@ -46,4 +46,11 @@ export const projects = [
     url: "./youtube.png",
     tags: ["web-app"],
   },
+  {
+    name: "Movie Mantra",
+    live: "https://movie-mantra.netlify.app/",
+    github: "https://github.com/Mohit76655/Movie-Mantra",
+    url: "./Movie-Mantra.png",
+    tags: ["web-app"],
+  },
 ];
