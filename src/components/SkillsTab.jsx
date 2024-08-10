@@ -26,6 +26,12 @@ const SkillsTab = () => {
           <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-neutral-300">
             Next Js
           </div>
+          <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-blue-600">
+            Kubernetes
+          </div>
+          <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-yellow-500">
+            Linux
+          </div>
         </Marquee>
         <Marquee autoFill pauseOnClick direction="right">
           <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-sky-500">
@@ -42,6 +48,12 @@ const SkillsTab = () => {
           </div>
           <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-green-400">
             Node Js
+          </div>
+          <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-blue-400">
+            Docker
+          </div>
+          <div className="bg-[#202020] m-1 rounded-xl flex space-x-5 p-4 font-bold text-2xl cursor-pointer text-yellow-400">
+            AWS
           </div>
         </Marquee>
       </div>
