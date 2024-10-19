@@ -37,7 +37,7 @@ export default function Home() {
                 transition={{ delay: 0.8 }}
                 className=" md:ml-64 ml-16 text-neutral-700"
               >
-                A Frontend/DevOps 
+                A Software
               </motion.p>
               <motion.p
                 initial={{ opacity: 0, y: -15 }}
